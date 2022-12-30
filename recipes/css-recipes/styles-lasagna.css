@@ -1,0 +1,44 @@
+<!-- 
+
+Universal selector: 
+*{
+    color: purple;
+}
+
+Type selector
+div {
+    color: white;
+  }
+
+Class selector
+.alert-text {
+    color: red;
+  }
+
+ID selector
+#title {
+    background-color: red;
+  }
+
+Grouping selector
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+-->
+  
+
+* {
+    color: rebeccapurple;
+}
+
+div {
+    color: #FF00FF;
+}
+
+.description,
+.title-text {
+    color: black; font-size: xx-large;
+}

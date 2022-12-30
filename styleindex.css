@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(153, 242, 174);
+}
+
+div.image {
+    text-align: center;
+}
+
+
+div.parent,h1 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: xx-large; 
+}
+
