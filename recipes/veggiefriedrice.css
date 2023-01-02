@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+.allcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.content {
+    width: 910px;
+}
+
+html {
+    background-color: blanchedalmond;
+}

@@ -1,13 +1,33 @@
 
-div.parent {
-    margin-left: 400px;
+h1 {
+    text-align: center;
+    grid-area: title;
 }
 
-ul,ol {
-    display: inline-block;
-    text-align: left;
+.allcontent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
 }
 
-body {
-    margin-left: ;
+.content-text {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin-top: 100px;
+    
 }
+
+.content {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 75px;
+    margin-top: 170px;
+}
+
+html {
+    background-color: bisque;
+}
+
+
+    
+
